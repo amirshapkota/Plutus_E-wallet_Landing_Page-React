@@ -6,6 +6,7 @@ import Footer from './components/pages/Footer/Footer';
 import Login from './components/pages/Login/Login';
 import SignUp from './components/pages/SignUp/SignUp';
 import Contact from './components/pages/Contact/Contact';
+import Dashboard from './components/pages/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/sign-up' component={SignUp}/>
         <Route path='/login' component={Login}/>
         <Route path='/contact' component={Contact}/>
+        <Route path='/dashboard' component={Dashboard}/>
       </Switch>
       <Footer />
     </BrowserRouter>
