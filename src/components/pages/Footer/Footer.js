@@ -36,7 +36,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img className="navbar-icon" src="assets/logo_text.png" height="90" width="160"
+            <img className="navbar-icon" src="images/logo_text.png" height="90" width="180"
                   alt="Plutus" />
             </Link>
           </div>

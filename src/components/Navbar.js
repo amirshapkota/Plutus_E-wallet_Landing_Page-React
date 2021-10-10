@@ -32,7 +32,7 @@ function Navbar() {
             <div className="navbar">
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                        <img className="navbar-icon" src="assets/logo.png" height="70" width="70"
+                        <img className="navbar-icon" src="images/logo.png" height="70" width="70"
                             alt="Plutus" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -56,12 +56,12 @@ function Navbar() {
                         </li>
                         <li className="nav-btn">
                             {button ? (
-                                <Link to='/signup' className="btn-link">
+                                <Link to='/sign-up' className="btn-link">
                                     <Button buttonStyle='btn--outline'>Sign Up</Button>
                                 </Link>
                             ): (
                                 <Link className="btn-link" onClick={closeMobileMenu}>
-                                    <Button to='/signup' buttonStyle='btn--outline' buttonSize='btn--mobile'>
+                                    <Button to='/sign-up' buttonStyle='btn--outline' buttonSize='btn--mobile'>
                                         Sign Up
                                     </Button>
                                 </Link>
