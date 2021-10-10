@@ -12,16 +12,16 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Quick Links</h2>
             <Link to='/'>Home</Link>
-            <Link to='/'>About</Link>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Signup</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/contact'>Contact</Link>
+            <Link to='/sign-up'>SignUp</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Member Area</h2>
-            <Link to='/'>Sign Up</Link>
-            <Link to='/'>LogIn</Link>
+            <Link to='/sign-up'>Sign Up</Link>
+            <Link to='/login'>LogIn</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
