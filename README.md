@@ -8,7 +8,7 @@ This landing page makes use of React, Bootstrap and few other technologies.
 > Make sure NPM is installed. 
 1. Clone the repo
 ```bash
-git clone 
+git clone https://github.com/amirshapkota/Plutus_E-wallet_Landing_Page-React.git
 ```
 2. Install all required React Plugins
 ```bash 
