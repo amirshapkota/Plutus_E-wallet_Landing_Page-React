@@ -21,7 +21,7 @@ npm start
 ## Contact 
 You can contact me at [contact@amirshapkota.com.np] | [shapkotaamir0@gmail.com]
 
-
+--------------------
 Note: This is just the landing page of the project.
 
 You can view full Project at : https://github.com/apurbadh/Plutus
